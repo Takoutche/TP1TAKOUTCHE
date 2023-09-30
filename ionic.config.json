@@ -1,0 +1,7 @@
+{
+  "name": "TP1TAKOUTCHE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
