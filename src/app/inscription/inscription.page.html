@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-toolbar>
+    <ion-title>Enregistrement</ion-title>
+  </ion-toolbar>
+  
+  
+    <ion-buttons slot="start">
+      
+        <ion-icon routerLink="/login" name="chevron-back-circle"></ion-icon>
+     
+    </ion-buttons>
+    <div class="head">
+      <ion-img class="logo" src="assets\logo.png" alt="i-shop logo">
+      </ion-img>
+      <ion-label class="titre" color="primary">S'inscrire</ion-label>
+    </div>
+  
+  <ion-list class="form">
+
+
+    <ion-input placeholder="Nom" type="text"></ion-input>
+    <ion-input placeholder="Email" type="text"></ion-input>
+    <ion-input placeholder="Mot-de-passe" type="Password"></ion-input>
+    <ion-input placeholder="Confirmer mot-de-passe" type="Password"></ion-input>
+  </ion-list>
+
+  <div class="l">
+    <div class="k"></div>
+    <div class="l">Bienvenue à ShopBag, l'application qui vous facilite la vie !</div>
+  </div>
+
+
+
+
+  <ion-button id="button" routerLink="/tabs">S'inscrire</ion-button>
+  <div>Compte déjà existant ?<span id="org" routerLink="/login">  Se connecter</span></div>
+
+
+</ion-content>

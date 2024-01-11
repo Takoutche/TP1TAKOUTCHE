@@ -1,0 +1,74 @@
+ion-card {
+    width: 90px; /* ajustez la largeur à vos besoins */
+    height: 150px; /* ajustez la hauteur à vos besoins */
+    margin: 0 10px; /* ajustez la marge à vos besoins */
+    border-radius: 15%;
+    background-color: #D9D9D9;
+}
+ion-chip {
+    background-color:#D5651F;
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: large;
+}
+
+ion-card-title{
+    font-family: Poppins, sans-serif;
+    text-align: left;
+   
+}
+
+ion-card-content{
+    font-family: Poppins, sans-serif;
+}
+
+#img{
+  align-content: center;
+}
+
+.image{
+    width: 10px;
+    height: 10px;
+    
+}
+.objet {
+    background-size: cover;
+    width: 90px;
+    height: 90px; /* taille fixe */
+    border-radius: 15px;
+    margin: 5px;
+  }
+.text{
+    width: 90px;
+    height: 200px;
+    background: #D5651F;
+    border-radius: 15px;
+    margin-left: -5px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 160%;
+}
+
+span{
+    text-align: center;
+    color: white;
+    font-size: 60%; 
+}
+
+img {
+    padding-right: 0px;
+   }
+
+ion-searchbar{
+    margin: 10px 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.button-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

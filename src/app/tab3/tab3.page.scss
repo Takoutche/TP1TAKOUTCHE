@@ -1,0 +1,65 @@
+.pho{
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    height: 177px;
+    width: 178px;
+    border-radius: 100%;
+    background: #D9D9D9;
+    // border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+.oder{
+    margin-top: 20px;
+}
+.contenu{
+    height: 350px;
+    background: #D5651F;
+    border-top-left-radius: 65px;
+    border-top-right-radius: 65px;
+}
+
+.contenu {
+    padding: 20px;
+  }
+  
+  .profil {
+    font-size: large;
+    padding: 30px;
+    margin-bottom: 1px;
+  }
+  
+  .info {
+    color: rgb(248, 248, 250);
+    font-weight: bold;
+    margin-bottom: 25px;
+    
+  }
+  
+ 
+
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.log{
+    display: flex;
+    justify-content: space-between;
+}
+ion-avatar{
+   height: 85%;
+    width:  85%;
+    border-radius: 100%;
+    // border: solid;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    
+}

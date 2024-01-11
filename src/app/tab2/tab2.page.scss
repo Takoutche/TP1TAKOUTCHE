@@ -1,0 +1,42 @@
+.logo {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .logo img {
+    max-width: 200px;
+  }
+  
+  .totals {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+  }
+  
+  .category-button {
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .category-button:hover {
+    background-color: #ddd;
+  }
+ ion-card{
+    --background: #D9D9D9;
+    border-radius: 20px;
+    
+  } 
+  ion-item{
+    --background: #D9D9D9;
+  } 
+  h2,p{
+    font-size: large;
+  }

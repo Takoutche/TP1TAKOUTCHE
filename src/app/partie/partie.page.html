@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Parametre</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding ion-text-center">
+  <div class="container">
+    <img src="../../assets/logo.png" alt="" />
+    <div class="page-header">
+    </div>
+    <div class="button-container">
+      <ion-button id="present-alert">Choisir</ion-button>
+<ion-alert
+  trigger="present-alert"
+  header="Bienvenue"
+  [buttons]="alertButtons"
+  [inputs]="alertInputs"
+></ion-alert>
+    </div>
+  </div>
+  <div class="buttons-container">
+    <ion-button width="150px" class="main-button"
+     routerLink="/jeu" 
+     routerDirection="forward">Lancer</ion-button>
+  </div>
+</ion-content>

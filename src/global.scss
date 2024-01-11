@@ -24,3 +24,23 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+ion-button {
+    font-family: Poppins, sans-serif;
+      --background: #2B4724;
+    --border-radius: 30px;
+    padding: 10px;
+    font-size: large;
+    padding-bottom: 20px;
+  }
+
+  ::placeholder{
+    padding-left: 4%;
+    font-family: Poppins,sans-serif;
+    font-size: large ;
+    text-size-adjust: auto;
+    
+    }
+
+
+   
